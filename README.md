@@ -20,3 +20,7 @@ If you want to stop the execution, just use a keyboard interrupt in the terminal
 ```
 Control + C
 ```
+## Code Demo
+A short code demo and functionality pitch can be found on YouTube:
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/1NQi8Bf7Qx4/0.jpg)](http://www.youtube.com/watch?v=1NQi8Bf7Qx4)
+

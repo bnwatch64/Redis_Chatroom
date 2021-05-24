@@ -1,0 +1,25 @@
+doctype html
+html
+
+     head
+     
+          title Chat room
+          meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+          link(type='text/css', rel='stylesheet', href='/css/bootstrap.css')
+          
+     body(style="background-color: #151818;")
+     
+          div.room
+               div.chat
+               div.users
+                    h2.title Online Users
+               div.clearfix
+               div.sendbox
+                    form.send
+                         textarea.message(placeholder='Type your message here', required='required')
+                         input.name(type='hidden', value=user)
+                         button#submitButton.submit.btn.btn-secondary(type="submit") Send
+
+          script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+          script(src='/socket.io/socket.io.js')
+          script(src='../js/chat.js')

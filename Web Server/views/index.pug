@@ -1,0 +1,26 @@
+doctype html
+html
+
+     head
+     
+          title Benjamin's Chat
+          meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+          link(type='text/css', rel='stylesheet', href='/css/bootstrap.css')
+        
+     body
+          div.myContainer
+              h1.title(style="text-align: center;") Benjamin's Chat
+              div.card.bg-secondary.mb-3(style='margin: 2rem auto 0; max-width: 500px;')
+                   div.card-header User registration
+                   div.card-body
+                        form.join
+                             div.form-group.row
+                                  div.col-sm-8
+                                       input#userInput.form-control(type="text", placeholder="Enter username", required="required", style="margin-bottom: 0.5rem")
+                                  div.col-sm-4
+                                       button#submitButton.btn.btn-primary(type="submit") Join Chat
+         
+          script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+          script(src='/js/script.js')
+     
+          
